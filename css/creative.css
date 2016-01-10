@@ -475,3 +475,19 @@ img::-moz-selection {
 body {
     webkit-tap-highlight-color: #222;
 }
+
+ul#nolist {
+    list-style-type: none;
+}
+
+#schedule {
+    font-size: 18px;
+}
+p#schedule {
+    font-size: 18px;
+}
+
+.lead {
+    font-size: 18px;
+    font-weight: 400;
+}
