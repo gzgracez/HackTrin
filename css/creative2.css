@@ -413,3 +413,7 @@ img::-moz-selection {
 body {
   webkit-tap-highlight-color: #A5A5A5;
 }
+
+.center-sponsors {
+    text-align: center;
+}
