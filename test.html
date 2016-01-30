@@ -8,5 +8,15 @@
                     <div class="container">
                         <h1>Hello, World!</h1>
                     </div>
+                    <input type="text" id="myText" value="Some text...">
+                    <button onclick="myFunction()">Try it</button>
+                    <p id="demo"></p>
+                    <script>
+                    function myFunction() {
+                        var x = document.getElementById("myText").value;
+                        document.getElementById("demo").innerHTML = x;
+                        alert(x);
+                    }
+                    </script>
                 </body>
         </html>
