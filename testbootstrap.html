@@ -15,6 +15,17 @@
                 <body>
                     <div class="container">
                         <h1>Hello, World!</h1>
+                        <input type="text" class="form-control" id="myText" value="Some text...">
+                        <br>
+                        <button onclick="myFunction()" class="btn btn-primary">Try it</button>
+                        <p id="demo"></p>
                     </div>
+                    <script>
+                    function myFunction() {
+                        var x = document.getElementById("myText").value;
+                        document.getElementById("demo").innerHTML = x;
+                        alert(x);
+                    }
+                    </script>
                 </body>
         </html>
