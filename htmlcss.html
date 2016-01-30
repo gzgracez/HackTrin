@@ -129,7 +129,7 @@ class: center, middle
 
 1. Introduction to HTML
 2. Styling with CSS
-3. Add some JavaScript Interactivity
+3. JavaScript Interactivity
 4. Host your website on GitHub
 
 ---
@@ -144,12 +144,12 @@ class: center, middle
 
 # Introduction to HTML
 
-- HTML is made of tags: ```< />```
-- HTML files begin by setting the doctype: ```<!DOCTYPE html>```
+- HTML is made of tags: `< />`
+- HTML files begin by setting the doctype: `<!DOCTYPE html>`
 - General format:
-  - ```<html>```
-  - ```<head>```
-  - ```<body>```
+  - `<html>`
+  - `<head>`
+  - `<body>`
 
 Sample:
 
@@ -173,19 +173,30 @@ Sample:
 # Styling with CSS
 
 - Location: 
-  - In a file: *.css
-  - Between style tags in the HTML file
-  - Basic <a href="test.html">test file</a> - Try adding then editing the style tags
+  - In a file: `*.css`
+  - Between `<style>` tags in the HTML file
+- Basic <a href="test.html">test file</a> - Try adding then editing the style tags
+- Options:
+  - `Text-decoration: overline, line-through, underline`
+  - `Font-family, size, weight, style`
 
 ---
+
 # Styling with CSS
 - CSS Frameworks:
   - Bootstrap: <a href="http://getbootstrap.com/getting-started/" target="_blank">Get Bootstrap</a>
-  
+
   <img src="img/bootstrap-theme.png" width=90% alt="">
     
+---
 
-
+# JavaScript Interactivity
+- window.alert("Hello, World!");
+- document.write("Hello, World!");
+- `<button onclick="this.innerHTML=Date()">The time is?</button>`
+  - <button onclick="this.innerHTML=Date()">The time is?</button>
+- `<button onclick="alert(Date())">The time is?</button>`
+  - <button onclick="alert(Date())">The time is?</button>
 
     </textarea>
     <script src="js/remark-latest.min.js">
