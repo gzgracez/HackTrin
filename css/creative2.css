@@ -3,8 +3,21 @@ body {
   height: 100%;
   width: 100%;
 }
+
+.fullycenter{
+  color: #AAB1C0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 200%;
+  font-family: "Courier";
+
+}
+
 body {
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  background-color: #282C34;
 }
 hr {
   border-color: #0E0563;
